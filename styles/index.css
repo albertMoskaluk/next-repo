@@ -1,0 +1,60 @@
+:root {
+  --some-color: red;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+.good {
+  padding-top: 40px;
+  display: flex;
+}
+
+.imageContainer {
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content {
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.goodTitle {
+  text-transform: uppercase;
+  color: #232323;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: .67em 0;
+}
+
+.price {
+  font-weight: 700;
+  line-height: 1.1;
+  color: #2fb5d2;
+  font-size: 1rem;
+}
+
+.paragraph {
+  margin-bottom:5px;
+  margin-top: 40px;
+}
+
+.paragraph b {
+  color: 
+}

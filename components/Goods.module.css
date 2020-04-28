@@ -1,0 +1,38 @@
+.link {
+  text-decoration: none;
+  color: black;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+}
+
+.description {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.description h3 {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #232323;
+  margin-top:.7rem;
+  margin-bottom:.7rem;
+  font-weight: 400;
+}
+
+.description div {
+  color: #E70B29;
+}
